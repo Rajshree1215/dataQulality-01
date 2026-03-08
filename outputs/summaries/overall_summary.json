@@ -1,0 +1,46 @@
+{
+  "pipeline_metadata": {
+    "config_file": "configs/dq_config.yaml",
+    "schema_file": "schemas/health_schema.json",
+    "data_file": "data/raw/global_health_data.csv",
+    "start_time": "2026-03-07T01:36:12.845350",
+    "end_time": "2026-03-07T01:36:31.774874",
+    "elapsed_time_seconds": 18.93,
+    "chunk_size": 50000
+  },
+  "summary_statistics": {
+    "total_rows_processed": 1000000,
+    "total_chunks_processed": 20,
+    "successful_chunks": 0,
+    "failed_validation_chunks": 20,
+    "error_chunks": 0,
+    "total_failed_expectations": 20,
+    "success_rate_pct": 0.0
+  },
+  "failed_chunk_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "performance_metrics": {
+    "rows_per_second": 52827.53,
+    "chunks_per_second": 1.06
+  }
+}

@@ -118,7 +118,7 @@ def generate_datadocs(
         logger.info("Building Data Docs...")
         context.build_data_docs()
         
-        from localize_ge_datadocs import localize_after_build
+        from patch_datadocs import localize_after_build
         localize_after_build()
         # Get Data Docs path
         docs_path = ge_root / "uncommitted" / "data_docs" / "local_site" / "index.html"
